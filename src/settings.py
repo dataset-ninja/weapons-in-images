@@ -15,14 +15,14 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Weapons in Images"
 PROJECT_NAME_FULL: str = "Weapons in Images: Images of Weapons with YOLO Annotations for Detecting Weapons"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.DbCL_1_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Security(is_used=False)]
-CATEGORY: Category = Category.Surveillance(sensitive_content=True)
+CATEGORY: Category = Category.Surveillance(extra=Category.Security(), sensitive_content=True)
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
