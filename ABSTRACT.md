@@ -1,5 +1,1 @@
-
-Sample image template:
-<img src="https://github.com/dataset-ninja/gland-segmentation/assets/78355358/f158d0dd-71d5-41a2-aba5-4a5f57d54c35" alt="image" width="800">
-
-<span style="font-size: smaller; font-style: italic;">Image description.</span>
+The author of the dataset was engaged in a project related to weapon detection in CCTV footage and encountered difficulties in finding a suitable pre-existing dataset for their research. Consequently, they decided to create the new dataset. It primarily consists of segmented videos (sourced mainly from YouTube) and images (other sources).
