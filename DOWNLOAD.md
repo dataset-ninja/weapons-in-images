@@ -1,6 +1,6 @@
 Dataset **Weapons in Images** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/si4aoob0vl8r8eumani9s/weapons-in-images-DatasetNinja.tar?rlkey=7enrun6suw1hj53pvji7llhby&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzI4NDlfV2VhcG9ucyBpbiBJbWFnZXMvd2VhcG9ucy1pbi1pbWFnZXMtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiQkZCRDlWd1Z2bTEzUVhKdnk1MHV4SzdUZHVIbFhkcjEwSWdvY29MNTRHND0ifQ==)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
